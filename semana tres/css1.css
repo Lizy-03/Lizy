@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: aqua;
+    font-size: 5em;
+}
+
+.egresado {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#detalle-egresado{
+    text-align: justify;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#especializacion {
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    color: blue;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+h2 {
+    color: brown;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+[href = "www.facebook.com"]{
+    color: brown;
+}
+[href = "www.instagram.com"]{
+    color: green;
+}
+[href = "www.tiktok.com"]{
+    color: yellow;
+}
+.cursos {
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+}
+ul li:nth-child(even){
+    color: brown;
+}
+
+#detalle-egresado::first-line{
+    color: blueviolet;
+    text-decoration: underline;
+}
+#detalle-egresado::first-letter{
+    color: brown;
+    font-size: 30px;
+}
+
+.egresado h2 {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+div li {
+    background-color: aqua;
+}
