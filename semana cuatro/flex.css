@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    width: 300px;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.box div {
+    width: 300px;
+    background-color: red;
+}
+
+.box div:first-child{
+    background-color: pink;
+    flex-shrink: 1;
+}
+
+.box div:last-child{
+    background-color: purple;
+    flex-shrink: 2;
+}
+
+/* .box div:nth-child(even){
+    background-color: yellowgreen;
+} */
+
+/* INICIO */
+
+.flex-inicio {
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.flex-inicio div{
+    background-color: aquamarine;
+}
+
+.flex-inicio div:first-child{
+    background-color: yellow;
+}
+
+.flex-inicio div:last-child{
+    background-color: pink;
+}
+
+/* FINAL */
+
+.flex-final {
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.flex-final div{
+    background-color: gray;
+}
+
+.flex-final div:first-child{
+    background-color: orange;
+}
+
+.flex-final div:last-child{
+    background-color: blueviolet;
+}
+
+/* CENTER */
+
+.center {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.center div{
+    background-color: gray;
+}
+
+.center div:first-child{
+    background-color: green;
+}
+
+.center div:last-child{
+    background-color: greenyellow;
+}
+
+/* SPACE BETWEEN */
+
+.space-between {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.space-between div{
+    background-color: pink;
+}
+
+.space-between div:first-child{
+    background-color: blue;
+}
+
+.space-between div:last-child{
+    background-color: aquamarine;
+}
+
+
+/* SPACE AROUND */
+
+.space-around {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.space-around div{
+    background-color: rgb(28, 39, 241);
+}
+
+.space-around div:first-child{
+    background-color: rgba(255, 204, 0, 0.279);
+}
+
+.space-around div:last-child{
+    background-color: rgba(150, 127, 255, 0.603);
+}
+

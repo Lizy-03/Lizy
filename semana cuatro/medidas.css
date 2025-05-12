@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.general {
+    width: 50px;
+    height: 100px;
+    font-size: 1em;
+    background-color: aquamarine;
+}
+
+header{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: aqua;
+    border: 1px solid red;
+    font-family: 'Playwrite DK Loopet';
+    /*  font-size: 100px; */
+}
+
+main{
+    margin-left: 30px;
+    background-color: palegreen;
+}
+
+.position {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.absolute {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: rgb(255, 0, 242);
+}
+
+.relative {
+    position: relative;
+    position: fixed;
+    width: 250px;
+    height: 350px;
+    background-color:green;
+}
+
+ul{
+    display: flex;
+    list-style:none;
+}
+
+p{
+    width: 150px;
+    background-color: peru;
+    border: 2px solid black;
+}
+
+.px{
+    width: 200px;
+    height: 100px;
+    background-color: azure;
+}
+.vw{
+    width: 10vw;
+    height: 10vh;
+    background-color: yellow;
+}
+
+.em{
+    width: 10em;
+    height: 10em;
+    background-color: blue;
+}
+
+.rem{
+    background-color: green;
+}
+
+.por{
+    width: 50%;
+    background-color: black;
+}
