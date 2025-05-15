@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    text-align: center;
+    font-size: 30px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 10px; 
+    margin: 60px;
+}
+
+h2{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 0 10px 10px firebrick;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.tarjeta1{
+    width: 200px;
+    height: 200px;
+    transition-duration: 0.5s;
+    transition-timing-function: initial;
+    transition-delay: 1s;
+    background-color: violet;
+    border-top-left-radius: 53px;
+    border-bottom-right-radius: 53%;
+    box-shadow: 5px 3px black;
+}
+
+.tarjeta1:hover {
+    background-color: yellow;
+}
+
+
+.tarjeta2{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    border-bottom-left-radius: 53px;
+    border-top-right-radius: 53%;
+    box-shadow: inset 5px 3px rgb(238, 0, 174);
+}
+
+.tarjeta3{
+    width: 200px;
+    height: 200px;
+    background-color:purple;;
+    border-top-right-radius: 53px;
+    border-bottom-left-radius: 53%;
+    box-shadow: 0px 0px 5px 5px black;
+}
+
+.tarjeta4{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    border-bottom-right-radius: 53px;
+    border-top-left-radius: 53%;
+    box-shadow: 5px 3px black;
+    box-shadow: 5px 5px 5px 5px rgb(255, 115, 138), -10px -10px rgb(3, 247, 19);
+}
+
+
+@media screen and (width < 450px) {
+
+    .header{
+        background-color: yellow;
+        color: black;
+    }
+
+    .tarjeta1{
+        background-color: red;
+    }
+
+    .tarjeta2{
+        background-color: black;
+    }
+
+    .tarjeta3{
+        background-color: black;
+        box-shadow: 0px 0px 10px 10px pink;
+    }
+
+    .tarjeta4{
+        background-color: red;
+    }
+
+    h2 {
+    text-shadow: 0 10px 10px mediumseagreen;
+    }
+}

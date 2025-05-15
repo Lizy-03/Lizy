@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+.titulo {
+    animation-duration: 2s;
+    animation-name: tituloAnimacion;
+}
+
+@keyframes tituloAnimacion{
+    from{
+        color: white;
+        background: darkcyan;
+    }
+    to {
+        color: blue;
+        background: gold;
+    }
+}  */
+
+div {
+    width: 100px;
+    height: 100px;
+    background: goldenrod;
+    margin: 10px;
+    color: black;
+    text-align: center;
+    line-height: 100;
+    transition: all 1s ease;
+}
+
+&.translate {
+    &:hover{
+        transform: translate(100px,100px);
+    }
+} 
+
+&.translatex {
+    &:hover{
+        transform: translatex(300px);
+    }
+}
+
+&.translatey {
+    &:hover{
+        transform: translatey(300px);
+    }
+}
+
+&.scale{
+    &:hover{
+        transform: scale(0.5);
+    }
+}
+
+&.scalex{
+    &:hover{
+        transform: scaleX(2);
+    }
+}
+
+&.scaley{
+    &:hover{
+        transform: scaleY(0.5);
+    }
+}
+
+&.rotate{
+    &:hover{
+        transform: rotate(1turn);
+    }
+}
+
+&.rotatex{
+    &:hover{
+        transform: rotateX(2turn);
+    }
+}
+
+&.rotatey{
+    &:hover{
+        transform: rotateY(45deg);
+    }
+}
+
+&.rotatez{
+    &:hover{
+        transform: rotateZ(1turn);
+    }
+}
