@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOCSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Tarjetas OOCSS</h1>
+        <div class="grid">
+            <div class="card">
+                <div class="card-header"></div>
+                <h3 class="card-title">Tarjeta</h3>
+                <span class="badge badge-info">Nuevo</span>
+                <div class="card-body">
+                    <p class="card-text">Esta es una tarjeta simple</p>
+                    <div class="flex-center">
+                        <button class="btn btn-primary">Principal</button>
+                        <button class="btn btn-outline">Secundario</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-image">
+                <div class="card-image-placeholder">Imagen</div>
+                <div class="card-body">
+                    <h3 class="card-title">Tarjeta como imagen</h3>
+                    <p class="card-text">Tarjeta como imagen</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-secondary">Ver galería</button>
+                </div>
+            </div>
+
+            <div class="card card-featured">
+                <div class="card-header">
+                    <h3 class="card-title">Tarjeta Premium</h3>
+                    <span class="badge badge-success">Explora</span>
+                </div>
+            </div>
+
+            <!-- Tarjeta compacta -->
+            <div class="card card-compact">
+                <div class="card-body">
+                    <h4 class="card-title">Tarjeta Compacta</h4>
+                    <p class="card-text">Tarjeta compacta optimizada</p>
+                    <div class="flex-between">
+                        <span class="badge badge-warning">Compacto</span>
+                        <button class="btn btn-primary">Ir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botones -->
+        <div style="margin-top: 3rem; padding: 2rem; background: rgb(163, 189, 45); border-radius: 12px; backdrop-filter: blur(10px);">
+            <h2 style="color: white; text-align:center; margin-bottom: 15px;">Botones</h2>
+            <div class="flex-center" style="flex-wrap:wrap; gap: 1rem;">
+                <button class="btn btn-primary">Primario</button>
+                <button class="btn btn-secondary">Secundario</button>
+                <button class="btn btn-success">Éxito</button>
+                <button class="btn btn-outline">Outline</button>
+            </div>
+        </div>
+
+        <div style="margin-top: 3rem; padding: 2rem; background: rgb(43, 7, 98); border-radius: 12px; box-shadow: 0.5px;">
+            <h3 style="color: rgb(228, 247, 129); margin-bottom: 1rem;">OCCS</h3>
+            <ul style="color: rgb(94, 211, 224); line-height: 1.8;">
+                <li><strong>Separación de estructura y presentación</strong></li>
+                <li><strong>Separación de contenedor y contenido</strong></li>
+                <li><strong>Reutilización</strong></li>
+                <li><strong>Escalabilidad</strong></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
